@@ -1,0 +1,28 @@
+- name: abjection
+  image: /assets/images/lang_01_abjection.jpg
+  link: /lang/01_abjection
+  description:
+- name: disability
+  image: /assets/images/lang_02_disability.jpg
+  link: /lang/02_disability
+  description:
+- name: intersectionality
+  image: /assets/images/lang_03_intersectionality.jpg
+  link: /lang/03_intersectionality
+  description:
+- name: desire
+  image: /assets/images/lang_04_desire.jpg
+  link: /lang/04_desire
+  description:
+- name: bodies
+  image: /assets/images/lang_05_bodies.jpg
+  link: /lang/05_bodies
+  description:
+- name: aids
+  image: /assets/images/lang_06_aids.jpg
+  link: /lang/06_aids
+  description:
+- name: scripts
+  image: /assets/images/lang_07_sex_scripts.jpg
+  link: /lang/07_sex_scripts
+  description:

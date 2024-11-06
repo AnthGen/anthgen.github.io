@@ -1,16 +1,28 @@
 <div class="navbar-item has-dropdown is-hoverable">
     <a class="navbar-link">
-        MORE
+        تماس
     </a>
     <div class="navbar-dropdown has-background-black is-left">
-        {% for sitepage in site.html_pages %}
+        <!--{% for sitepage in site.html_pages %}
         {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' %}
         <a href="{{sitepage.url | absolute_url}}"
             class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
             {{sitepage.title}}
         </a>
         {% endunless %}
-        {% endfor %}
+        {% endfor %}-->
+        <a href="https://www.instagram.com/anthropology_of_gender/" 
+            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
+            اینستاگرام
+        </a>
+        <a href="https://t.me/AnthropologyOfGender"
+            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
+            تلگرام
+        </a>
+        <a href="mailto:anthropologyofgender@gmail.com"
+            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
+            ایمیل
+        </a>
         <!-- <hr class="navbar-divider">
     <a class="navbar-item">
       Report an issue
